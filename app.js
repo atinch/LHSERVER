@@ -9,7 +9,7 @@ const app = express();
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 
-//Routers
+//Routes
 app.use('/users',require('./routes/users'));
 
 //Start the server
